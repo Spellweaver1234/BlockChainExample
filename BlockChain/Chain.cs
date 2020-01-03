@@ -21,7 +21,7 @@ namespace BlockChain
             return GetMd5Hash(md5Hash, amount.ToString() + prevHash.ToString() + index.ToString());
         }
 
-        public void CreateBlock(double a,string ph)
+        public void CreateBlock(double a, string ph)
         {
             amount = a;
             prevHash = ph;
